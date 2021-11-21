@@ -1,0 +1,300 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 85%;
+    }
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .cards-prod-novidade {
+        flex-flow: row wrap;
+    }
+    .cards-prod-novidade .card {
+        margin: 10px;
+    }
+
+    .cards-celulares {
+        flex-flow: row wrap;
+    }
+    .cards-celulares .card {
+        margin: 10px;
+    }
+    .cards-computadores {
+        flex-flow: row wrap;
+    }
+    .cards-computadores .card {
+        margin: 10px;
+    }
+    .cards-consoles {
+        flex-flow: row wrap;
+    }
+    .cards-consoles .card {
+        margin: 10px;
+    }
+    .cards-acessorios {
+        flex-flow: row wrap;
+    }
+    .cards-acessorios .card {
+        margin: 10px;
+    }
+    .cards-pcgamers {
+        flex-flow: row wrap;
+    }
+    .cards-pcgamers .card {
+        margin: 10px;
+    }
+    .cards-oculosvr {
+        flex-flow: row wrap;
+    }
+    .cards-oculosvr .card {
+        margin: 10px;
+    }
+    .cards-melhoresjogos {
+        flex-flow: row wrap;
+    }
+    .cards-melhoresjogos .card {
+        margin: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .texto-banner {
+        width: 230px;
+    }
+    
+    /* .cards-prod-novidade .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    } */
+    /* .cards-celulares .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-computadores .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-consoles .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-acessorios .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-pcgamers .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-oculosvr .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-melhoresjogos .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    } */
+}    
+
+
+@media screen and (max-width:754px) {
+     .cards-prod-novidade {
+        justify-content: space-around;
+    }
+    .cards-celulares {
+        justify-content: space-around;
+    }
+    .cards-computadores {
+        justify-content: space-around;
+    }
+    .cards-consoles {
+        justify-content: space-around;
+    }
+    .cards-acessorios {
+        justify-content: space-around;
+    }
+    .cards-pcgamers {
+        justify-content: space-around;
+    }
+    .cards-oculosvr {
+        justify-content: space-around;
+    }
+    .cards-melhoresjogos {
+        justify-content: space-around;
+    }
+}
+
+
+
+@media screen and (max-width:707px) {
+    .cadastro-e-redes {      
+        flex-direction: column;   
+    }
+}
+
+
+@media screen and (max-width:460px) {
+    .container-grid {
+        width: 95%;
+    }
+    
+    .menu-hamburger {
+        width: 50px;
+    }
+
+    .icones-menu {
+        width: 90px;
+    }
+
+    .texto-banner {
+        width: 220px;
+    }
+
+    .cards-prod-novidade {
+        flex-direction: column;   
+    }
+    .cards-celulares {
+        flex-direction: column;   
+    }
+    .cards-computadores {
+        flex-direction: column;   
+    }
+    .cards-consoles {
+        flex-direction: column;   
+    }
+    .cards-acessorios {
+        flex-direction: column;   
+    }
+    .cards-pcgamers {
+        flex-direction: column;   
+    }
+    .cards-oculosvr {
+        flex-direction: column;   
+    }
+    .cards-melhoresjogos {
+        flex-direction: column;   
+    }
+
+    #login-container {
+        max-width: 300px;
+    }
+
+}
+
+
+@media screen and (max-width:360px) {
+    /* .cards-prod-novidade .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    } */
+    /* .cards-celulares .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-computadores .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-consoles .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-acessorios .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-pcgamers .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-oculosvr .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-melhoresjogos .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    } */
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

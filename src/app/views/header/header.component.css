@@ -1,0 +1,67 @@
+header {
+    height: 80px;
+    background-color: black;
+    border-bottom: 1px solid white;   
+}
+
+
+/* MENU */
+
+.menu-hamburger {
+    width: 150px;
+    position: relative;
+}
+
+
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: rgb(207, 188, 253);
+    color: black;
+    font-weight: bold;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    background-color: black;
+    position: absolute;
+    top: 80;
+    left: 0;
+    justify-content: space-around;
+}
+
+.menu-ativo {
+    display: flex;
+}
+
+/* LOGO */
+
+.logo a{
+    position: center;
+    align-items: center;    
+}
+
+
+/* ÍCONES DE LOGIN E CARRINHO */
+
+.icones-menu {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones-menu .login:hover {
+    transform: scale(1.05);
+}
+
+.icones-menu .carrinho:hover {
+    transform: scale(1.05);
+}
