@@ -10,8 +10,10 @@
             <div class="receber-ofertas">
                 <div class="card">
                     <h6>Cadastre-se e receba nossas ofertas!</h6>
-                    <input id="campo-email" type="email" class="cadastro-ofertas-txt" placeholder="E-mail" required>
-                    <button id="botao-receber-ofertas" onclick="enviarEmail()">Cadastrar</button>
+                    <form #newsLetter="ngForm" (ngSubmit)="onSubmit()">
+                        <input type="email" id="campo-email" name="email" class="cadastro-ofertas-txt" placeholder="E-mail" [(ngModel)]="newsLetterModel.email">
+                        <button type="submit" id="botao-receber-ofertas">Cadastrar</button>
+                    </form>
                 </div>
             </div>
 
@@ -26,7 +28,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </footer>

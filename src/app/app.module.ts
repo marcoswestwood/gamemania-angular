@@ -16,6 +16,7 @@ import { HeaderComponent } from './views/header/header.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { LoginComponent } from './views/login/login.component';
 import { MatMenuModule } from '@angular/material/menu';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { MatMenuModule } from '@angular/material/menu';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

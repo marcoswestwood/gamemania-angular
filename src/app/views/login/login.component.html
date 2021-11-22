@@ -1,17 +1,17 @@
 <body>
     <div id="login-container">
         <h1>Login</h1>
-        <form action="">
+        <form #userForm="ngForm" (ngSubmit)="onSubmit()">
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" [(ngModel)]="userModel.email">
             <label for="password">Senha</label>
-            <input type="password" name="password" id="password" placeholder="Digite a sua senha">
-            <a href="#" id="recuperar-senha">Esqueceu a senha?</a>
+            <input type="password" name="senha" id="senha" placeholder="Digite a sua senha" [(ngModel)]="userModel.senha">
+            <a routerLink="#" id="recuperar-senha">Esqueceu a senha?</a>
             <input type="submit" value="Login">
         </form>
         <div class="cadastro-usuario">
             <p>Ainda não tem cadastro?</p>
-            <a href="#">Cadastre-se</a>
+            <a routerLink="#">Cadastre-se</a>
         </div>
     </div>
 </body>
