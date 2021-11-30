@@ -4,7 +4,19 @@
             <h3>PC gamers</h3>
         </div>
         <div id="espaco-pcgamers" class="cards-pcgamers container-grid">
-            <div class="card">
+            <div *ngFor="let pcgamer of listaPcgamers" class="card">
+                <h3>{{ pcgamer.titulo }}</h3>
+                <div class="icon">
+                    <img src={{pcgamer.imagem}} alt="pc gamers asus">
+                </div>
+                <h5>{{ pcgamer.precoDe }}</h5>
+                <h4>{{ pcgamer.precoPor }}</h4>
+                <h6>{{ pcgamer.prestacao }}</h6>
+                <button>Comprar</button> 
+            </div>
+
+
+            <!-- <div class="card">
                 <h3>Pc gamers asus</h3>
                 <div class="icon">
                     <img src="assets/img/imagens/pcgamer asus.png" alt="pc gamers asus">
@@ -43,7 +55,7 @@
                 <h4>Por: R$ 2.899,00</h4>
                 <h6>Em até 10x de R$ 289,90</h6>
                 <button>Comprar</button> 
-            </div>                    
+            </div>                     -->
         </div>
     </div>
 </section>

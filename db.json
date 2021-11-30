@@ -288,5 +288,39 @@
       "prestacao": "Em até 10x de R$ 39,90",
       "id": 4
     }
+  ],
+  "pcgamers": [
+    {
+      "titulo": "Pc gamer asus",
+      "imagem": "assets/img/imagens/pcgamer asus.png",
+      "precoDe": "De: R$ 3.299,00",
+      "precoPor": "Por: R$ 2.699,00",
+      "prestacao": "Em até 10x de R$ 269,90",
+      "id": 1
+    },
+    {
+      "titulo": "Notebook acer nitro 5",
+      "imagem": "assets/img/imagens/notebook gamer acer nitro 5.png",
+      "precoDe": "De: R$ 5.999,00",
+      "precoPor": "Por: R$ 5.099,00",
+      "prestacao": "Em até 10x de R$ 509,90",
+      "id": 2
+    },
+    {
+      "titulo": "Lenovo gaming 3i",
+      "imagem": "assets/img/imagens/notebook lenovo ideapad gaming 3i.png",
+      "precoDe": "De: R$ 5.399,00",
+      "precoPor": "Por: R$ 4.899,00",
+      "prestacao": "Em até 10x de R$ 489,90",
+      "id": 3
+    },
+    {
+      "titulo": "Pc gamer amd fx-6100",
+      "imagem": "assets/img/imagens/pc gamer amd fx-6100.png",
+      "precoDe": "De: R$ 3.999,00",
+      "precoPor": "Por: R$ 2.899,00",
+      "prestacao": "Em até 10x de R$ 289,90",
+      "id": 4
+    }
   ]
 }
