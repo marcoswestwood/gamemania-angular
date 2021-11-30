@@ -220,5 +220,39 @@
       "prestacao": "Em até 10x de R$ 179,90",
       "id": 4
     }
+  ],
+  "jogos": [
+    {
+      "titulo": "Fifa 21",
+      "imagem": "assets/img/imagens/jogos/f1 2021 xbox.png",
+      "precoDe": "De: R$ 199,00",
+      "precoPor": "Por: R$ 149,00",
+      "prestacao": "Em até 10x de R$ 14,90",
+      "id": 1
+    },
+    {
+      "titulo": "Fifa 22",
+      "imagem": "assets/img/imagens/jogos/fifa2022.png",
+      "precoDe": "De: R$ 299,00",
+      "precoPor": "Por: R$ 209,00",
+      "prestacao": "Em até 10x de R$ 20,90",
+      "id": 2
+    },
+    {
+      "titulo": "Immortals fenyx rising",
+      "imagem": "assets/img/imagens/jogos/immortal_fenyx.png",
+      "precoDe": "De: R$ 149,00",
+      "precoPor": "Por: R$ 99,00",
+      "prestacao": "Em até 10x de R$ 9,90",
+      "id": 3
+    },
+    {
+      "titulo": "Mortal kombat",
+      "imagem": "assets/img/imagens/jogos/mortal_kombat.png",
+      "precoDe": "De: R$ 249,00",
+      "precoPor": "Por: R$ 129,00",
+      "prestacao": "Em até 10x de R$ 12,90",
+      "id": 4
+    }
   ]
 }

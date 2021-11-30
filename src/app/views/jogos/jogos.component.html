@@ -4,7 +4,18 @@
             <h3>Jogos</h3>
         </div>
         <div id="espaco-melhoresjogos" class="cards-melhoresjogos container-grid">
-            <div class="card">
+            <div *ngFor="let jogo of listaJogos" class="card">
+                <h3>{{ jogo.titulo }}</h3>
+                <div class="icon">
+                    <img src={{jogo.imagem}} alt="fifa 2021">
+                </div>
+                <h5>{{ jogo.precoDe }}</h5>
+                <h4>{{ jogo.precoPor }}</h4>
+                <h6>{{ jogo.prestacao }}</h6>
+                <button>Comprar</button> 
+            </div>
+
+            <!-- <div class="card">
                 <h3>Fifa 21</h3>
                 <div class="icon">
                     <img src="assets/img/imagens/jogos/f1 2021 xbox.png" alt="fifa 2021">
@@ -43,7 +54,7 @@
                 <h4>Por: R$ 129,00</h4>
                 <h6>Em até 10x de R$ 12,90</h6>
                 <button>Comprar</button> 
-            </div>                    
+            </div>                     -->
         </div>
     </div>
 </section>
