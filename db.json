@@ -186,5 +186,39 @@
       "prestacao": "Em até 10x de R$ 1.289,90",
       "id": 4
     }
+  ],
+  "consoles": [
+    {
+      "titulo": "Playstation 4",
+      "imagem": "assets/img/imagens/playstation4.png",
+      "precoDe": "De: R$ 3.599,00",
+      "precoPor": "Por: R$ 2.699,00",
+      "prestacao": "Em até 10x de R$ 269,90",
+      "id": 1
+    },
+    {
+      "titulo": "X box one s",
+      "imagem": "assets/img/imagens/xbox one s.png",
+      "precoDe": "De: R$ 3.199,00",
+      "precoPor": "Por: R$ 2.599,00",
+      "prestacao": "Em até 10x de R$ 259,90",
+      "id": 2
+    },
+    {
+      "titulo": "Playstation 5",
+      "imagem": "assets/img/imagens/playstation_5.png",
+      "precoDe": "De: R$ 7.299,00",
+      "precoPor": "Por: R$ 6.099,00",
+      "prestacao": "Em até 10x de R$ 609,90",
+      "id": 3
+    },
+    {
+      "titulo": "Nintendo Switch",
+      "imagem": "assets/img/imagens/nintendo-switch.png",
+      "precoDe": "De: R$ 2.399,00",
+      "precoPor": "Por: R$ 1.799,00",
+      "prestacao": "Em até 10x de R$ 179,90",
+      "id": 4
+    }
   ]
 }

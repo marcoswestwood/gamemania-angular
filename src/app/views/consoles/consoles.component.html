@@ -4,7 +4,19 @@
             <h3>Consoles</h3>
         </div>
         <div id="espaco-consoles" class="cards-consoles container-grid">
-            <div class="card">
+            <div *ngFor="let console of listaConsoles" class="card">
+                <h3>{{ console.titulo }}</h3>
+                <div class="icon">
+                    <img src={{console.imagem}} alt="playstation 4">
+                </div>
+                <h5>{{ console.precoDe }}</h5>
+                <h4>{{ console.precoPor }}</h4>
+                <h6>{{ console.prestacao }}</h6>
+                <button>Comprar</button> 
+            </div>
+
+
+            <!-- <div class="card">
                 <h3>Playstation 4</h3>
                 <div class="icon">
                     <img src="assets/img/imagens/playstation4.png" alt="playstation 4">
@@ -43,7 +55,7 @@
                 <h4>Por: R$ 1.799,00</h4>
                 <h6>Em até 10x de R$ 179,90</h6>
                 <button>Comprar</button> 
-            </div>                    
+            </div>                     -->
         </div>
     </div>
 </section>

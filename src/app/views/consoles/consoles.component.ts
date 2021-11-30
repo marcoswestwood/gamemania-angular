@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Console } from 'src/app/models/console';
+import { ConsoleService } from 'src/app/services/console.service';
 
 @Component({
   selector: 'app-consoles',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConsolesComponent implements OnInit {
 
-  constructor() { }
+  listaConsoles = [] as Console[];
+
+  constructor(private consoleService: ConsoleService) { }
 
   ngOnInit(): void {
+    this.carregarConsoles();
   }
 
+  carregarConsoles() {
+    this.consoleService.getConsoles().subscribe( (consolesRecebidos: Console[]) => {
+      this.listaConsoles = consolesRecebidos;
+      console.log(this.listaConsoles)
+    })
+  }
 }
