@@ -118,5 +118,39 @@
       "prestacao": "Em até 10x de R$ 34,90",
       "id": 4
     }
+  ],
+  "celulares": [
+    {
+      "titulo": "Samsung galaxy s21",
+      "imagem": "assets/img/imagens/samsung-galaxy-s21.png",
+      "precoDe": "De: R$ 5.299,90",
+      "precoPor": "Por: R$ 3.999,00",
+      "prestacao": "Em até 10x de R$ 399,90",
+      "id": 1
+    },
+    {
+      "titulo": "Iphone 12 pro max",
+      "imagem": "assets/img/imagens/iphone 12 pro max.png",
+      "precoDe": "De: R$ 9.799,00",
+      "precoPor": "Por: R$ 7.999,00",
+      "prestacao": "Em até 10x de R$ 799,90",
+      "id": 2
+    },
+    {
+      "titulo": "Galaxy z fold 2",
+      "imagem": "assets/img/imagens/Zfold2.png",
+      "precoDe": "De: R$ 9.599,00",
+      "precoPor": "Por: R$ 8.199,00",
+      "prestacao": "Em até 10x de R$ 819,90",
+      "id": 3
+    },
+    {
+      "titulo": "Motorola edge 20",
+      "imagem": "assets/img/imagens/motorola-edge-20.png",
+      "precoDe": "De: R$ 3.899,00",
+      "precoPor": "Por: R$ 2.999,00",
+      "prestacao": "Em até 10x de R$ 299,90",
+      "id": 4
+    }
   ]
 }

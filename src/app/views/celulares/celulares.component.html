@@ -4,7 +4,20 @@
             <h3>Celulares</h3>
         </div>
         <div id="espaco-celulares" class="cards-celulares container-grid">
-            <div class="card">
+            <div *ngFor="let celular of listaCelulares" class="card">
+                <h3>{{ celular.titulo }}</h3>
+                <div class="icon">
+                    <img src={{celular.imagem}} alt="galaxy s21">
+                </div>
+                <h5>{{ celular.precoDe }}</h5>
+                <h4>{{ celular.precoPor }}</h4>
+                <h6>{{ celular.prestacao }}</h6>
+                <button>Comprar</button> 
+            </div>
+            
+            
+            
+            <!-- <div class="card">
                 <h3>Samsung galaxy s21</h3>
                 <div class="icon">
                     <img src="assets/img/imagens/samsung-galaxy-s21.png" alt="galaxy s21">
@@ -43,7 +56,7 @@
                 <h4>Por: R$ 2.999,00</h4>
                 <h6>Em até 10x de R$ 299,90</h6>
                 <button>Comprar</button> 
-            </div>                    
+            </div>                     -->
         </div>
     </div>
 </section>
