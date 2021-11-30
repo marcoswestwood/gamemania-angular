@@ -4,7 +4,18 @@
             <h3>Computadores</h3>
         </div>
         <div id="espaco-computadores" class="cards-computadores container-grid">
-            <div class="card">
+            <div *ngFor="let computador of listaComputadores" class="card">
+                <h3>{{ computador.titulo }}</h3>
+                <div class="icon">
+                    <img src={{computador.imagem}} alt="notebook asus">
+                </div>
+                <h5>{{ computador.precoDe }}</h5>
+                <h4>{{ computador.precoPor }}</h4>
+                <h6>{{ computador.prestacao }}</h6>
+                <button>Comprar</button> 
+            </div>
+
+            <!-- <div class="card">
                 <h3>Notebook asus</h3>
                 <div class="icon">
                     <img src="assets/img/imagens/laptop-asus.png" alt="notebook asus">
@@ -43,7 +54,7 @@
                 <h4>Por: R$ 12.899,00</h4>
                 <h6>Em até 10x de R$ 1.289,90</h6>
                 <button>Comprar</button> 
-            </div>                    
+            </div>                     -->
         </div>
     </div>
 </section>

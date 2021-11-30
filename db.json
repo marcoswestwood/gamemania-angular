@@ -152,5 +152,39 @@
       "prestacao": "Em até 10x de R$ 299,90",
       "id": 4
     }
+  ],
+  "computadores": [
+    {
+      "titulo": "Notebook asus",
+      "imagem": "assets/img/imagens/laptop-asus.png",
+      "precoDe": "De: R$ 3.199,00",
+      "precoPor": "Por: R$ 1.999,00",
+      "prestacao": "Em até 10x de R$ 199,90",
+      "id": 1
+    },
+    {
+      "titulo": "Notebook lenovo",
+      "imagem": "assets/img/imagens/notebook lenovo.png",
+      "precoDe": "De: R$ 2.999,00",
+      "precoPor": "Por: R$ 1.899,00",
+      "prestacao": "Em até 10x de R$ 189,90",
+      "id": 2
+    },
+    {
+      "titulo": "Notebook acer",
+      "imagem": "assets/img/imagens/notebook acer.png",
+      "precoDe": "De: R$ 3.599,00",
+      "precoPor": "Por: R$ 2.499,00",
+      "prestacao": "Em até 10x de R$ 249,90",
+      "id": 3
+    },
+    {
+      "titulo": "Macbook",
+      "imagem": "assets/img/imagens/macbook pro.png",
+      "precoDe": "De: R$ 15.299,00",
+      "precoPor": "Por: R$ 12.899,00",
+      "prestacao": "Em até 10x de R$ 1.289,90",
+      "id": 4
+    }
   ]
 }

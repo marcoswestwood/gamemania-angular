@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Computador } from 'src/app/models/computador';
+import { ComputadorService } from 'src/app/services/computador.service';
 
 @Component({
   selector: 'app-computadores',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComputadoresComponent implements OnInit {
 
-  constructor() { }
+  listaComputadores = [] as Computador[];
+
+  constructor(private computadorService: ComputadorService) { }
+
 
   ngOnInit(): void {
+    this.carregarComputadores();
   }
 
+  carregarComputadores() {
+    this.computadorService.getComputadores().subscribe( (computadoresRecebidos: Computador[]) => {
+      this.listaComputadores = computadoresRecebidos;
+      console.log(this.listaComputadores)
+    })
+  }
 }
