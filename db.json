@@ -1,0 +1,88 @@
+{
+  "novidades": [
+    {
+      "produto": "playstation 4",
+      "imagem": "assets/img/imagens/playstation4.png",
+      "precoDe": "De: R$ 3.599,00",
+      "precoPor": "Por: R$ 2.699,00",
+      "prestacao": "Em até 10x de R$ 269,90",
+      "id": 1
+    },
+    {
+      "produto": "Notebook asus",
+      "imagem": "assets/img/imagens/laptop-asus.png",
+      "precoDe": "De: R$ 3.199,00",
+      "precoPor": "Por: R$ 1.999,00",
+      "prestacao": "Em até 10x de R$ 199,90",
+      "id": 2
+    },
+    {
+      "produto": "Headphone",
+      "imagem": "assets/img/imagens/headphone-vermelho.png",
+      "precoDe": "De: R$ 89,90",
+      "precoPor": "Por: R$ 59,90",
+      "prestacao": "Em até 10x de R$ 5,99",
+      "id": 3
+    },
+    {
+      "produto": "Samsung galaxy s21",
+      "imagem": "assets/img/imagens/samsung-galaxy-s21.png",
+      "precoDe": "De: R$ 5.299,00",
+      "precoPor": "Por: R$ 3.999,00",
+      "prestacao": "Em até 10x de R$ 399,90",
+      "id": 4
+    }
+  ],
+  "galeria": [
+    {
+      "link": "assets/img/imagens/galeria/foto1.jpg",
+      "foto": "assets/img/imagens/galeria/foto1.jpg",
+      "id": 1
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto2.jpg",
+      "foto": "assets/img/imagens/galeria/foto2.jpg",
+      "id": 2
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto3.jpg",
+      "foto": "assets/img/imagens/galeria/foto3.jpg",
+      "id": 3
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto4.jpg",
+      "foto": "assets/img/imagens/galeria/foto4.jpg",
+      "id": 4
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto5.jpg",
+      "foto": "assets/img/imagens/galeria/foto5.jpg",
+      "id": 5
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto6.jpg",
+      "foto": "assets/img/imagens/galeria/foto6.jpg",
+      "id": 6
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto7.jpg",
+      "foto": "assets/img/imagens/galeria/foto7.jpg",
+      "id": 7
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto8.jpg",
+      "foto": "assets/img/imagens/galeria/foto8.jpg",
+      "id": 8
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto9.jpg",
+      "foto": "assets/img/imagens/galeria/foto9.jpg",
+      "id": 9
+    },
+    {
+      "link": "assets/img/imagens/galeria/foto10.jpg",
+      "foto": "assets/img/imagens/galeria/foto10.jpg",
+      "id": 10
+    }
+  ]
+}

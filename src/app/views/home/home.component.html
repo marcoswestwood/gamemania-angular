@@ -16,8 +16,19 @@
                 <h3>Novidades</h3>
             </div>
             <div id="espaco-novidades" class="cards-prod-novidade container-grid">
-                
-                    <div class="card">
+              
+                <div *ngFor="let novidade of listaNovidades" class="card">
+                    <h3>{{ novidade.produto }}</h3>
+                    <div class="icon">
+                        <img src={{novidade.imagem}} alt="">
+                    </div>
+                    <h5>{{ novidade.precoDe }}</h5>
+                    <h4>{{ novidade.precoPor }}</h4>
+                    <h6>{{ novidade.prestacao }}</h6>
+                    <button>Comprar</button> 
+                </div>
+
+                    <!-- <div class="card">
                         <h3>playstation 4</h3>
                         <div class="icon">
                             <img src="assets/img/imagens/playstation4.png" alt="playstation 4">
@@ -59,7 +70,7 @@
                         <h4>Por: R$ 3.999,00</h4>
                         <h6>Em até 10x de R$ 399,90</h6>
                         <button>Comprar</button> 
-                    </div>                  
+                    </div>                   -->
             </div>
         </div>
     </section>
@@ -137,7 +148,12 @@
                 <h3>Galeria</h3>
             </div>
             <div id="espaco-galeria" class="cards-galeria container-grid">
-                <a href="assets/img/imagens/galeria/foto1.jpg" class="itens-galeria">
+                <a *ngFor="let galeria of listaGaleria" href={{galeria.link}} class="itens-galeria">
+                    <img src={{galeria.foto}} alt="">
+                </a>
+
+
+                <!-- <a href="assets/img/imagens/galeria/foto1.jpg" class="itens-galeria">
                     <img src="assets/img/imagens/galeria/foto1.jpg" alt="">
                 </a>
                 <a href="assets/img/imagens/galeria/foto2.jpg" class="itens-galeria">
@@ -166,7 +182,7 @@
                 </a>
                 <a href="assets/img/imagens/galeria/foto10.jpg" class="itens-galeria">
                     <img src="assets/img/imagens/galeria/foto10.jpg" alt="">
-                </a>                
+                </a>                 -->
             </div>
         </div>
     </section>
