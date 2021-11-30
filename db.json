@@ -84,5 +84,39 @@
       "foto": "assets/img/imagens/galeria/foto10.jpg",
       "id": 10
     }
+  ],
+  "acessorios": [
+    {
+      "texto": "headphone",
+      "imagem": "assets/img/imagens/headphone-vermelho.png",
+      "precoDe": "De: R$ 89,00",
+      "precoPor": "Por: R$ 59,00",
+      "prestacao": "Em até 10x de R$ 5,90",
+      "id": 1
+    },
+    {
+      "texto": "teclado",
+      "imagem": "assets/img/imagens/teclado.png",
+      "precoDe": "De: R$ 299,00",
+      "precoPor": "Por: R$ 199,00",
+      "prestacao": "Em até 10x de R$ 19,90",
+      "id": 2
+    },
+    {
+      "texto": "mouse",
+      "imagem": "assets/img/imagens/mouse.png",
+      "precoDe": "De: R$ 49,00",
+      "precoPor": "Por: R$ 34,00",
+      "prestacao": "Em até 10x de R$ 3,40",
+      "id": 3
+    },
+    {
+      "texto": "Controle sem fio xbox",
+      "imagem": "assets/img/imagens/controle sem fio xbox.png",
+      "precoDe": "De: R$ 499,00",
+      "precoPor": "Por: R$ 349,00",
+      "prestacao": "Em até 10x de R$ 34,90",
+      "id": 4
+    }
   ]
 }

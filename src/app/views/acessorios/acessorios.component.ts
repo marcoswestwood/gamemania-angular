@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Acessorio } from 'src/app/models/acessorio';
+import { AcessorioService } from 'src/app/services/acessorio.service';
 
 @Component({
   selector: 'app-acessorios',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AcessoriosComponent implements OnInit {
 
-  constructor() { }
+  listaAcessorios = [] as Acessorio[];
+
+  constructor(private acessorioService: AcessorioService) { }
 
   ngOnInit(): void {
+    this.carregarAcessorios();
+  }
+
+  carregarAcessorios() {
+    this.acessorioService.getAcessorios().subscribe( (acessoriosRecebidos: Acessorio[]) => {
+      this.listaAcessorios = acessoriosRecebidos;
+      console.log(this.listaAcessorios)
+    })
   }
 
 }

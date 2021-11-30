@@ -5,7 +5,20 @@
         </div>
         <div id="espaco-acessorios" class="cards-acessorios container-grid">
             
-                <div class="card">
+            <div *ngFor="let acessorio of listaAcessorios" class="card">
+                <h3>{{ acessorio.texto }}</h3>
+                <div class="icon">
+                    <img src={{acessorio.imagem}} alt="">
+                </div>
+                <h5>{{ acessorio.precoDe }}</h5>
+                <h4>{{ acessorio.precoPor }}</h4>
+                <h6>{{ acessorio.prestacao }}</h6>
+                <button>Comprar</button> 
+            </div>
+
+
+
+                <!-- <div class="card">
                     <h3>Headphone</h3>
                     <div class="icon">
                         <img src="assets/img/imagens/headphone-vermelho.png" alt="headphone">
@@ -47,7 +60,7 @@
                     <h4>Por: R$ 349,00</h4>
                     <h6>Em até 10x de R$ 34,90</h6>
                     <button>Comprar</button> 
-                </div>                    
+                </div>                     -->
         </div>
     </div>
 </section>
