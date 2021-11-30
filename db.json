@@ -254,5 +254,39 @@
       "prestacao": "Em até 10x de R$ 12,90",
       "id": 4
     }
+  ],
+  "oculosvr": [
+    {
+      "titulo": "Óculos vr shinecon",
+      "imagem": "assets/img/imagens/oculos-vr1.png",
+      "precoDe": "De: R$ 499,00",
+      "precoPor": "Por: R$ 299,00",
+      "prestacao": "Em até 10x de R$ 29,90",
+      "id": 1
+    },
+    {
+      "titulo": "Óculos vr merge 360",
+      "imagem": "assets/img/imagens/oculos-vr2.png",
+      "precoDe": "De: R$ 299,00",
+      "precoPor": "Por: R$ 249,00",
+      "prestacao": "Em até 10x de R$ 24,90",
+      "id": 2
+    },
+    {
+      "titulo": "Óculos vr shinecon",
+      "imagem": "assets/img/imagens/oculos-vr3.png",
+      "precoDe": "De: R$ 699,00",
+      "precoPor": "Por: R$ 499,00",
+      "prestacao": "Em até 10x de R$ 49,90",
+      "id": 3
+    },
+    {
+      "titulo": "Óculos vr celexon",
+      "imagem": "assets/img/imagens/oculos-vr4.png",
+      "precoDe": "De: R$ 599,00",
+      "precoPor": "Por: R$ 399,00",
+      "prestacao": "Em até 10x de R$ 39,90",
+      "id": 4
+    }
   ]
 }

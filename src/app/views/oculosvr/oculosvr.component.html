@@ -4,7 +4,19 @@
             <h3>Óculos realidade virtual</h3>
         </div>
         <div id="espaco-oculosvr" class="cards-oculosvr container-grid">
-            <div class="card">
+            <div *ngFor="let oculosvr of listaOculosvr" class="card">
+                <h3>{{ oculosvr.titulo }}</h3>
+                <div class="icon">
+                    <img src={{oculosvr.imagem}} alt="">
+                </div>
+                <h5>{{ oculosvr.precoDe }}</h5>
+                <h4>{{ oculosvr.precoPor }}</h4>
+                <h6>{{ oculosvr.prestacao }}</h6>
+                <button>Comprar</button> 
+            </div>
+
+
+            <!-- <div class="card">
                 <h3>Óculos vr shinecon</h3>
                 <div class="icon">
                     <img src="assets/img/imagens/oculos-vr1.png" alt="">
@@ -43,7 +55,7 @@
                 <h4>Por: R$ 399,00</h4>
                 <h6>Em até 10x de R$ 39,90</h6>
                 <button>Comprar</button> 
-            </div>                    
+            </div>                     -->
         </div>
     </div>
 </section>
