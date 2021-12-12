@@ -18,6 +18,7 @@ import { FooterComponent } from './views/footer/footer.component';
 import { LoginComponent } from './views/login/login.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { FormsModule } from '@angular/forms';
+import { NotFoundComponent } from './views/not-found/not-found.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { FormsModule } from '@angular/forms';
     PcgamersComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

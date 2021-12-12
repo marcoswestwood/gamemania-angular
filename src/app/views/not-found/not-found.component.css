@@ -1,0 +1,17 @@
+main {
+    background-color: rgb(11, 12, 12);
+    color: white;
+    padding: 100px 0;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1, p, img {
+   margin: 0 auto;
+}
+
+img {
+    padding-top: 40px;
+}

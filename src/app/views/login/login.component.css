@@ -4,11 +4,9 @@
 }
 
 body {
-    /* background-image: url('../../../assets/img/imagens/banner-login.png'); */
-    height: 450px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: rgb(7, 1, 24);
+    height: 550px;
+    padding-top: 90px;
 }
 
 textarea:focus, input:focus {
@@ -69,7 +67,7 @@ input:focus {
 
 input[type="submit"] {
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: bold;
     border: none;
     height: 40px;
@@ -83,4 +81,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #1B223C;
     transition: .5s;
+}
+
+.mensagem-login {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
 }

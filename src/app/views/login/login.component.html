@@ -3,15 +3,16 @@
         <h1>Login</h1>
         <form #userForm="ngForm" (ngSubmit)="onSubmit()">
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" [(ngModel)]="userModel.email">
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" [(ngModel)]="userModel.email" required>
             <label for="password">Senha</label>
-            <input type="password" name="senha" id="senha" placeholder="Digite a sua senha" [(ngModel)]="userModel.senha">
-            <a routerLink="#" id="recuperar-senha">Esqueceu a senha?</a>
-            <input type="submit" value="Login">
+            <input type="password" name="senha" id="senha" placeholder="Digite a sua senha" [(ngModel)]="userModel.password" required>
+            <!-- <a routerLink="#" id="recuperar-senha">Esqueceu a senha?</a> -->
+            <input type="submit" value="Fazer login">
         </form>
-        <div class="cadastro-usuario">
+        <!-- <div class="cadastro-usuario">
             <p>Ainda não tem cadastro?</p>
             <a routerLink="#">Cadastre-se</a>
-        </div>
+        </div> -->
     </div>
+    <p class="mensagem-login" *ngIf="mensagem != '' ">{{ mensagem }}</p>
 </body>

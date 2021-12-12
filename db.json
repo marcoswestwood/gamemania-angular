@@ -1,4 +1,11 @@
 {
+  "users": [
+    {
+      "email": "marcos@mail.com",
+      "password": "$2a$10$m58N.KdFgNNb8t7PKXwpb.ATrfN6Y9nOiLsM8GtTNHIvHI7XbH07m",
+      "id": 1
+    }
+  ],
   "novidades": [
     {
       "produto": "playstation 4",

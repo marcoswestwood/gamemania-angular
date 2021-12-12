@@ -9,6 +9,7 @@ import { JogosComponent } from './views/jogos/jogos.component';
 import { OculosvrComponent } from './views/oculosvr/oculosvr.component';
 import { PcgamersComponent } from './views/pcgamers/pcgamers.component';
 import { LoginComponent } from "./views/login/login.component";
+import { NotFoundComponent } from './views/not-found/not-found.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,9 @@ const routes: Routes = [
   { path: "jogos", component: JogosComponent },
   { path: "oculosvr", component: OculosvrComponent },
   { path: "pcgamers", component: PcgamersComponent },
-  { path: "login", component: LoginComponent }
+  { path: "login", component: LoginComponent },
+  { path: "404", component: NotFoundComponent },
+  { path: "**", redirectTo: "404" }
 ];
 
 @NgModule({
